@@ -90,7 +90,7 @@ export default function Pricing() {
                                 }
               `}
                         >
-                            Get Started
+                            Coming soon
                         </button>
                     </ScrollAnimation>
                 ))}
