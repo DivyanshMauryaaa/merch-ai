@@ -8,10 +8,10 @@ export default function Home() {
     <div className="p-6 scroll-smooth">
       <section className="min-h-[80vh] px-4 md:px-8 flex flex-col justify-center items-center space-y-6 py-20 md:py-0">
         <ScrollAnimation delay={0.1}>
-          <p className="text-5xl md:text-8xl text-center font-bold leading-tight">Market Research done right <span className="text-indigo-700">for Startups</span></p>
+          <p className="text-5xl md:text-6xl text-center leading-tight">Scalable, <span className="text-indigo-700">Depthful</span> Research automation for Startups</p>
         </ScrollAnimation>
         <ScrollAnimation delay={0.2}>
-          <p className="text-gray-400 text-2xl md:text-4xl text-center max-w-4xl">AI Researcher made for providing deeper & more accurate details</p>
+          <p className="text-gray-400 text-2xl md:text-4xl text-center max-w-4xl">AI Automation for Researches requiring more depth & accuracy.</p>
         </ScrollAnimation>
         <ScrollAnimation delay={0.3} className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-5 w-full md:w-auto items-center">
           <a href="#pricing" className="w-full md:w-auto">
@@ -36,7 +36,7 @@ export default function Home() {
 
           <ScrollAnimation delay={0.2} className="border border-gray-400 border-y-0 lg:border-y lg:border-x-0 p-8 h-auto lg:h-[350px] w-full lg:w-1/3">
             <FileSpreadsheet size={26} />
-            <p className="text-2xl md:text-3xl font-semibold mt-4">Automatically generate Organized insights in seconds</p>
+            <p className="text-2xl md:text-3xl font-semibold mt-4">Automatically generate Organized insights while researching in seconds</p>
             <p className="text-base md:text-lg mt-4 text-gray-400">
               As AI progresses through research process, it automatically organizes the learned insights in spreadsheets to provide you with the most relevant summary.
             </p>
@@ -80,7 +80,7 @@ export default function Home() {
             </ScrollAnimation>
             <ScrollAnimation delay={0.2}>
               <p className="text-4xl md:text-6xl font-bold leading-tight">
-                Make market decisions with  <span className="text-indigo-700">Evedence</span>, not guesses
+                Make market decisions with  <span className="text-indigo-700">Evidence</span>, not guesses
               </p>
             </ScrollAnimation>
           </div>
